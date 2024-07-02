@@ -1,0 +1,7 @@
+const names = require("./4-firstmodule")
+const sayHi = require("./5-utils")
+const danvers = require("./6-altflav")
+require('./7-mind-grenade')
+sayHi("Susan")
+sayHi(names.john)
+sayHi(names.peter)
